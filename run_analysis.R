@@ -43,5 +43,4 @@ run_analysis <- function () {
 # uses summarise function to find the mean for each feature in each subject/activity group    
     summarydata <- summarise(data_melt, feature_mean=mean(value))
    write.table(summarydata, file = "TidyData.txt", row.names= FALSE)
-    write.csv(summarydata, file = "tidydata.csv", row.names = FALSE)
  }
