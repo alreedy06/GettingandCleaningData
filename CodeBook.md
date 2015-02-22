@@ -45,23 +45,25 @@ The run_analysis.R script
 ##Data dictionary
 
 ### subject
-    * Numeric identifier of subject performing activity
-    * Integer from 1-30
+* Numeric identifier of subject performing activity
+* Integer from 1-30
     
 ### activity
-    * Description of activity being measured
-    * Values
-        * Laying
-        * Sitting
-        * Standing
-        * Walking
-        * Walking_Downstairs
-        * Walking_Upstairs
+* Description of activity being measured
+* Values
+   * Laying
+   * Sitting
+   * Standing
+   * Walking
+   * Walking_Downstairs
+   * Walking_Upstairs
 
 ### feature
-    * Name of feature from original data set after corrections in Step 1.
-    Value    |  Original Data Set Name
+* Name of feature from original data set after corrections in Step 1.
+Value | Original Data Set Name
+
 ------------ | -------------
+
 fBodyAcc_mean_X | fBodyAcc-mean()-X
 
 fBodyAcc_mean_Y | fBodyAcc-mean()-Y
